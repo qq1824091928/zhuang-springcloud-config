@@ -21,4 +21,4 @@ management:
       base-path: /monitor
       exposure:
         include: "*"
-sign: Y   
+sign: N   
