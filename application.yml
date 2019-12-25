@@ -1,0 +1,12 @@
+server:
+  port: 3001
+spring:
+  application:
+    name: spring-cloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/qq1824091928/zhuang-springcloud-config.git
+          username: qq1824091928
+          password: zhuang3351077
