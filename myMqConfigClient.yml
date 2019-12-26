@@ -1,4 +1,4 @@
-sign: N
+sign: Y
 management:
   endpoints:
     web:
@@ -12,13 +12,13 @@ spring:
 spring:
   profiles: test
   application:
-    name: myBusConfigClient-test
+    name: myMqConfigClient-test
 server:
   port: 8080
 ---
 spring:
   profiles: dev
   application:
-    name: myBusConfigClient-dev
+    name: myMqConfigClient-dev
 server:
   port: 8081 
