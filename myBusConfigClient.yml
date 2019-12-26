@@ -1,0 +1,24 @@
+sign: N
+management:
+  endpoints:
+    web:
+      base-path: /monitor
+      exposure:
+        include: "*"
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: test
+  application:
+    name: myConfigClient-test
+server:
+  port: 8080
+---
+spring:
+  profiles: dev
+  application:
+    name: myConfigClient-dev
+server:
+  port: 8081 
